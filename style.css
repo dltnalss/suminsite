@@ -1,0 +1,88 @@
+<style>
+*{
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+body{
+    margin-top: 20px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+header, footer{
+    height: 100px;
+}
+.mySlides {
+    display:none;
+}
+.mySlides{
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:0
+}
+
+header h1 {
+    display: inline;
+    text-align: center;
+    font-size: 50px;
+}
+
+header h2{
+    font-size: 20px;
+}
+footer{
+    background-color: #c88dff;
+}
+nav{
+    height: 50px;
+}
+
+ul{list-style-type: none;}
+a {text-decoration: none;}
+nav ul li{
+    display: inline;
+    padding: 15px 20px;
+    letter-spacing: 5px;
+}
+nav ul li:hover{
+    background-color: rgb(153, 127, 255);
+} 
+
+nav ul{
+    border-top: 2px solid rgb(153, 127, 255);
+    border-bottom: 2px solid rgb(153, 127, 255);
+    padding: 15px 20px;
+    text-align: center;
+}
+.w3-container{
+    margin-top: 10px;   
+}
+.bigdata > img{
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+.action table{
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.2em;
+    border: 0px;
+}
+.action table th{
+    background-color: rgb(209, 179, 255);
+}
+
+table, th, td {
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    border-color: blueviolet;
+  }
+</style>
